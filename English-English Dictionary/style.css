@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background: coral;
+    width: 500px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.heading{
+    font-size: 28px;
+}
+
+.word{
+    width:100%;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.buton{
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: green;
+    font-size: 20px;
+    color:white;
+}
+
+.translatedDiv{
+    display: none;
+}
