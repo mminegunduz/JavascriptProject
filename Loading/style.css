@@ -1,0 +1,36 @@
+.container {
+    width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.counter {
+    font-size: 40px;
+}
+
+.loadingBarGround {
+    height: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+}
+.loadingBarFront {
+    height: 10px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    width: 0%;
+}
